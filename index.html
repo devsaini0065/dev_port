@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dev Saini - 1st Year B.Tech Computer Science & Engineering Student at JECRC University, Jaipur. Personal Portfolio showcasing education, skills, projects, and achievements.">
+  <meta name="author" content="Dev Saini">
+  <title>Dev Saini | 1st Year B.Tech CSE Student | Portfolio</title>
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       STICKY NAVIGATION BAR
+       Contains: Home | About Me | Education | Skills | Projects | Achievements | Contact
+       ======================================================== -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo" aria-label="Dev Saini Portfolio Home">
+        <span class="logo-symbol">&lt;</span>
+        <span class="logo-name">Dev Saini</span>
+        <span class="logo-symbol">/&gt;</span>
+        <span class="student-badge">1st Year CSE</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Nav Controls (Theme Toggle + Mobile Menu Button) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark theme" title="Toggle Theme">
+          <span class="theme-icon sun-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========================================================
+         1. HOME / HERO SECTION
+         ======================================================== -->
+    <section class="hero-section section-padding" id="home">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            <span>JECRC University, Jaipur &bull; B.Tech CSE</span>
+          </div>
+
+          <h1 class="hero-title">
+            Dev Saini
+          </h1>
+
+          <p class="hero-headline">
+            1st Year B.Tech CSE Student <span class="divider">|</span> Technology &amp; Web Development Enthusiast
+          </p>
+
+          <p class="hero-intro">
+            I am a first-year Computer Science &amp; Engineering student at JECRC University, Jaipur, passionate about learning programming, web development and new technologies.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Social Links with Icons -->
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <!-- GitHub Link -->
+            <a href="https://github.com/devsaini0065" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Dev Saini GitHub profile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+              </svg>
+              <span>devsaini0065</span>
+            </a>
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/dev-saini-a9144242b" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="Dev Saini LinkedIn profile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Decorative Developer Terminal Card -->
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="code-filename">dev_profile.cpp</span>
+              <span class="code-lang">C++ / 1st Year</span>
+            </div>
+            <div class="code-body">
+              <pre><code><span class="c-comment">// Student Profile &amp; Goals</span>
+<span class="c-keyword">#include</span> <span class="c-string">&lt;iostream&gt;</span>
+<span class="c-keyword">#include</span> <span class="c-string">&lt;string&gt;</span>
+
+<span class="c-type">struct</span> <span class="c-class">Student</span> {
+  <span class="c-type">std::string</span> name = <span class="c-string">"Dev Saini"</span>;
+  <span class="c-type">std::string</span> college = <span class="c-string">"JECRC University, Jaipur"</span>;
+  <span class="c-type">std::string</span> course = <span class="c-string">"B.Tech CSE (1st Year)"</span>;
+  <span class="c-type">std::string</span> learning = <span class="c-string">"C, C++ &amp; Web Development"</span>;
+};
+
+<span class="c-type">int</span> <span class="c-func">main</span>() {
+  <span class="c-class">Student</span> dev;
+  <span class="c-type">std::cout</span> &lt;&lt; <span class="c-string">"Welcome to my portfolio!\n"</span>;
+  <span class="c-keyword">return</span> <span class="c-number">0</span>;
+}</code></pre>
+            </div>
+            <div class="code-footer">
+              <span class="terminal-status"><span class="pulse-indicator"></span> Building fundamentals &amp; growing</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         2. ABOUT ME SECTION (Prominently placed immediately after Hero)
+         ======================================================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Overview</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left Column: Student / Developer Clean Graphic & Badge (NO fake photos) -->
+          <div class="about-visual-col">
+            <div class="profile-card-clean">
+              <div class="profile-illustration">
+                <!-- Clean SVG Student Developer Workspace Illustration -->
+                <svg viewBox="0 0 320 280" class="student-illustration" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Student Developer Illustration">
+                  <!-- Background Glow Circle -->
+                  <circle cx="160" cy="140" r="110" fill="url(#avatarGlow)" opacity="0.15" />
+                  
+                  <!-- Desk -->
+                  <rect x="40" y="210" width="240" height="12" rx="6" fill="#3B82F6" opacity="0.3" />
+                  
+                  <!-- Laptop Base & Screen -->
+                  <rect x="90" y="115" width="140" height="90" rx="8" fill="#1E293B" stroke="#3B82F6" stroke-width="2" />
+                  <rect x="98" y="123" width="124" height="74" rx="4" fill="#0F172A" />
+                  <!-- Screen Lines (Code) -->
+                  <rect x="108" y="135" width="45" height="4" rx="2" fill="#3B82F6" />
+                  <rect x="108" y="145" width="70" height="4" rx="2" fill="#06B6D4" />
+                  <rect x="118" y="155" width="55" height="4" rx="2" fill="#10B981" />
+                  <rect x="118" y="165" width="80" height="4" rx="2" fill="#94A3B8" />
+                  <rect x="108" y="175" width="35" height="4" rx="2" fill="#F59E0B" />
+                  <!-- Laptop Stand -->
+                  <polygon points="140,205 180,205 190,214 130,214" fill="#334155" />
+
+                  <!-- Notebook / Books -->
+                  <rect x="235" y="175" width="35" height="35" rx="3" fill="#3B82F6" opacity="0.7" transform="rotate(8 235 175)" />
+                  <line x1="242" y1="182" x2="265" y2="185" stroke="#FFFFFF" stroke-width="1.5" />
+                  <line x1="243" y1="190" x2="266" y2="193" stroke="#FFFFFF" stroke-width="1.5" />
+
+                  <!-- Coffee Mug -->
+                  <rect x="55" y="180" width="18" height="26" rx="4" fill="#06B6D4" opacity="0.8" />
+                  <path d="M73 186 C 80 186, 80 196, 73 196" stroke="#06B6D4" stroke-width="2" fill="none" />
+                  
+                  <!-- Floating Tech Elements -->
+                  <!-- C++ Badge -->
+                  <g transform="translate(45, 75)">
+                    <rect width="48" height="26" rx="6" fill="#1E293B" stroke="#3B82F6" stroke-width="1.5" />
+                    <text x="24" y="17" fill="#60A5FA" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="bold" text-anchor="middle">C++</text>
+                  </g>
+                  <!-- C Badge -->
+                  <g transform="translate(230, 65)">
+                    <rect width="38" height="26" rx="6" fill="#1E293B" stroke="#06B6D4" stroke-width="1.5" />
+                    <text x="19" y="17" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="bold" text-anchor="middle">C</text>
+                  </g>
+                  <!-- Web Code Badge -->
+                  <g transform="translate(135, 40)">
+                    <rect width="52" height="24" rx="6" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+                    <text x="26" y="16" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold" text-anchor="middle">&lt;Web/&gt;</text>
+                  </g>
+
+                  <defs>
+                    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8" />
+                      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
+                    </radialGradient>
+                  </defs>
+                </svg>
+              </div>
+
+              <!-- Profile Summary Highlight Card -->
+              <div class="profile-card-footer">
+                <div class="profile-badge-title">Dev Saini</div>
+                <div class="profile-badge-subtitle">1st Year B.Tech CSE</div>
+                <div class="profile-badge-univ">JECRC University, Jaipur</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Content & Information Cards -->
+          <div class="about-text-col">
+            <h3 class="about-subheading">Passionate Learner &amp; Future Engineer</h3>
+            
+            <div class="about-paragraphs">
+              <p>
+                Hi, I'm <strong>Dev Saini</strong>, a first-year B.Tech Computer Science &amp; Engineering student at <strong>JECRC University, Jaipur</strong>. I completed my Class 10 and Class 12 from <strong>HVN School</strong>.
+              </p>
+              <p>
+                I am interested in technology, programming and web development. Currently, I am learning <strong>C and C++</strong> to strengthen my programming fundamentals and improve my problem-solving skills.
+              </p>
+              <p>
+                I am also exploring web development by creating practical projects such as my personal portfolio website and a running website.
+              </p>
+              <p>
+                Along with technical skills, I am working on improving my communication, teamwork and presentation skills. My goal is to continuously learn new technologies, build useful projects and grow as a Computer Science student.
+              </p>
+            </div>
+
+            <!-- Small Information Cards Grid (6 items) -->
+            <div class="about-info-grid">
+              
+              <!-- Card 1: Name -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">Name</span>
+                  <span class="info-value">Dev Saini</span>
+                </div>
+              </div>
+
+              <!-- Card 2: Course -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">Course</span>
+                  <span class="info-value">B.Tech CSE</span>
+                </div>
+              </div>
+
+              <!-- Card 3: Year -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">Year</span>
+                  <span class="info-value">1st Year</span>
+                </div>
+              </div>
+
+              <!-- Card 4: University -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">University</span>
+                  <span class="info-value">JECRC University</span>
+                </div>
+              </div>
+
+              <!-- Card 5: Location -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">Location</span>
+                  <span class="info-value">Jaipur, Rajasthan, India</span>
+                </div>
+              </div>
+
+              <!-- Card 6: School -->
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                  </svg>
+                </div>
+                <div class="info-meta">
+                  <span class="info-title">School</span>
+                  <span class="info-value">HVN School</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         3. EDUCATION SECTION (Modern Timeline)
+         ======================================================== -->
+    <section class="education-section section-padding" id="education">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Academic Pathway</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          
+          <!-- Timeline Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-dot current">
+              <span class="inner-dot"></span>
+            </div>
+            <div class="timeline-card highlight">
+              <div class="timeline-badge-group">
+                <span class="badge badge-primary">Current Degree</span>
+                <span class="badge badge-subtle">1st Year</span>
+              </div>
+              <h3 class="timeline-title">B.Tech – Computer Science &amp; Engineering</h3>
+              <div class="timeline-institution">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                <strong>JECRC University</strong>
+              </div>
+              <div class="timeline-location">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                Jaipur, Rajasthan, India
+              </div>
+              <p class="timeline-desc">
+                <strong>Course Focus:</strong> Programming, Computer Science fundamentals and Web Development
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Class 12 -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <span class="inner-dot"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="badge badge-success">Completed</span>
+              </div>
+              <h3 class="timeline-title">Class 12</h3>
+              <div class="timeline-institution">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <strong>HVN School</strong>
+              </div>
+              <p class="timeline-desc">
+                <strong>Qualification:</strong> Class 12
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: Class 10 -->
+          <div class="timeline-item">
+            <div class="timeline-dot">
+              <span class="inner-dot"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge-group">
+                <span class="badge badge-success">Completed</span>
+              </div>
+              <h3 class="timeline-title">Class 10</h3>
+              <div class="timeline-institution">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <strong>HVN School</strong>
+              </div>
+              <p class="timeline-desc">
+                <strong>Qualification:</strong> Class 10
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. SKILLS SECTION
+         ======================================================== -->
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Skills</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Focusing on building strong foundations in programming and essential soft skills.
+          </p>
+        </div>
+
+        <div class="skills-wrapper">
+          
+          <!-- Category 1: Programming Skills (Currently Learning/Developing) -->
+          <div class="skills-category-block">
+            <div class="category-header">
+              <div class="category-icon-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <h3 class="category-title">Programming Skills</h3>
+              </div>
+              <span class="learning-banner">Currently Learning &amp; Developing</span>
+            </div>
+            
+            <p class="category-note">
+              <em>Note: These are currently learning and developing skills. Focused on deep core understanding without unrealistic expert claims.</em>
+            </p>
+
+            <div class="skills-grid programming-grid">
+              
+              <!-- C Skill Card -->
+              <div class="skill-card featured-skill">
+                <div class="skill-card-top">
+                  <div class="skill-icon-wrap c-icon">
+                    <span class="code-symbol">C</span>
+                  </div>
+                  <div class="skill-info">
+                    <h4 class="skill-name">C</h4>
+                    <span class="skill-status-tag">Currently Learning / Developing</span>
+                  </div>
+                </div>
+                <p class="skill-desc">
+                  Strengthening programming fundamentals, problem solving, data types, control flow, loops, arrays, and pointers.
+                </p>
+                <div class="skill-tags">
+                  <span class="tag">Fundamentals</span>
+                  <span class="tag">Problem Solving</span>
+                  <span class="tag">Pointers</span>
+                  <span class="tag">Logic Building</span>
+                </div>
+              </div>
+
+              <!-- C++ Skill Card -->
+              <div class="skill-card featured-skill">
+                <div class="skill-card-top">
+                  <div class="skill-icon-wrap cpp-icon">
+                    <span class="code-symbol">C++</span>
+                  </div>
+                  <div class="skill-info">
+                    <h4 class="skill-name">C++</h4>
+                    <span class="skill-status-tag">Currently Learning / Developing</span>
+                  </div>
+                </div>
+                <p class="skill-desc">
+                  Developing understanding of programming structures, basic Object-Oriented concepts, algorithms, and logical problem solving.
+                </p>
+                <div class="skill-tags">
+                  <span class="tag">Fundamentals</span>
+                  <span class="tag">Problem Solving</span>
+                  <span class="tag">OOP Concepts</span>
+                  <span class="tag">Logic Building</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category 2: Other Skills -->
+          <div class="skills-category-block">
+            <div class="category-header">
+              <div class="category-icon-title">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <h3 class="category-title">Other Skills</h3>
+              </div>
+              <span class="badge badge-subtle">Core Competencies</span>
+            </div>
+
+            <div class="skills-grid other-skills-grid">
+              
+              <!-- Web Development -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap web-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Web Development</h4>
+                <p class="skill-desc">Creating structured, responsive, and clean web pages using HTML, CSS, and JavaScript fundamentals.</p>
+                <div class="skill-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Responsive UI</span>
+                </div>
+              </div>
+
+              <!-- Communication -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap comm-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Communication</h4>
+                <p class="skill-desc">Expressing thoughts clearly, engaging in academic discussions, and communicating ideas effectively.</p>
+                <div class="skill-tags">
+                  <span class="tag">Verbal</span>
+                  <span class="tag">Written</span>
+                  <span class="tag">Active Listening</span>
+                </div>
+              </div>
+
+              <!-- Teamwork -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap team-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Teamwork</h4>
+                <p class="skill-desc">Collaborating enthusiastically with peers on coursework, study groups, and team projects.</p>
+                <div class="skill-tags">
+                  <span class="tag">Collaboration</span>
+                  <span class="tag">Peer Support</span>
+                  <span class="tag">Coordination</span>
+                </div>
+              </div>
+
+              <!-- Presentation -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap pres-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Presentation</h4>
+                <p class="skill-desc">Practicing structured slide delivery and project demonstrations to explain concepts with clarity.</p>
+                <div class="skill-tags">
+                  <span class="tag">Confidence</span>
+                  <span class="tag">Demonstration</span>
+                  <span class="tag">Structure</span>
+                </div>
+              </div>
+
+              <!-- Problem Solving -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap ps-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Problem Solving</h4>
+                <p class="skill-desc">Analyzing problems methodically, debugging code issues, and applying logical algorithms.</p>
+                <div class="skill-tags">
+                  <span class="tag">Analytical</span>
+                  <span class="tag">Debugging</span>
+                  <span class="tag">Logical Steps</span>
+                </div>
+              </div>
+
+              <!-- Learning & Adaptability -->
+              <div class="skill-card">
+                <div class="skill-icon-wrap adapt-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="23 4 23 10 17 10"></polyline>
+                    <polyline points="1 20 1 14 7 14"></polyline>
+                    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                  </svg>
+                </div>
+                <h4 class="skill-name">Learning &amp; Adaptability</h4>
+                <p class="skill-desc">Enthusiastic curiosity and quick adaptation when exploring new computer science technologies.</p>
+                <div class="skill-tags">
+                  <span class="tag">Fast Learner</span>
+                  <span class="tag">Growth Mindset</span>
+                  <span class="tag">Curious</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. PROJECTS SECTION
+         ======================================================== -->
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Practical Work</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Hands-on projects built to explore web design, structure, and user interaction.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Personal Portfolio Website -->
+          <div class="project-card">
+            <div class="project-card-banner">
+              <div class="project-badge">Featured Project</div>
+              <div class="project-mockup">
+                <div class="mockup-header">
+                  <span class="mock-dot red"></span>
+                  <span class="mock-dot yellow"></span>
+                  <span class="mock-dot green"></span>
+                  <span class="mock-title">portfolio / dev-saini</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mock-line-main">Dev Saini &bull; 1st Year B.Tech CSE</div>
+                  <div class="mock-line-sub">Education &bull; Skills &bull; Projects &bull; Achievements</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-description">
+                Created a personal portfolio website to showcase my education, skills, projects and achievements.
+              </p>
+              
+              <div class="project-focus">
+                <strong>Focus:</strong> Responsive design and modern UI.
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <!-- View Project: Points to the current website -->
+                <a href="#home" class="btn btn-outline btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>View Project</span>
+                </a>
+
+                <!-- GitHub Button -->
+                <!-- DEV SAINI: Replace href="https://github.com/devsaini0065" with your specific portfolio repository URL if desired -->
+                <a href="https://github.com/devsaini0065" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Running Website -->
+          <div class="project-card">
+            <div class="project-card-banner running-banner">
+              <div class="project-badge">Practical Project</div>
+              <div class="project-mockup">
+                <div class="mockup-header">
+                  <span class="mock-dot red"></span>
+                  <span class="mock-dot yellow"></span>
+                  <span class="mock-dot green"></span>
+                  <span class="mock-title">running-website / app</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mock-line-main">Running Website</div>
+                  <div class="mock-line-sub">Structure &bull; Design &bull; User-Friendly Interface</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Running Website</h3>
+              <p class="project-description">
+                Created a running-related website as a practical web development project.
+              </p>
+              
+              <div class="project-focus">
+                <strong>Focus:</strong> Website structure, design and user-friendly interface.
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <!-- DEV SAINI: Replace data-project or href with your live hosted URL when deployed -->
+                <button type="button" class="btn btn-outline btn-sm preview-btn" data-project="Running Website">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>View Project</span>
+                </button>
+
+                <!-- DEV SAINI: Replace href="https://github.com/devsaini0065" with your specific repository link when uploaded -->
+                <a href="https://github.com/devsaini0065" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="View Source on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         6. ACHIEVEMENTS SECTION (Growth & Milestones)
+         ======================================================== -->
+    <section class="achievements-section section-padding" id="achievements">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Milestones</span>
+          <h2 class="section-title">Achievements</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Authentic learning achievements, skills development, and ongoing growth milestones.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Card 1 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Interpersonal Growth</span>
+              <h3 class="achievement-title">Improved communication skills</h3>
+              <p class="achievement-desc">
+                Actively participating in class discussions, expressing technical ideas clearly, and listening proactively to peers and instructors.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Collaboration</span>
+              <h3 class="achievement-title">Improved teamwork skills</h3>
+              <p class="achievement-desc">
+                Working collaboratively on academic tasks, sharing responsibilities, and contributing positively to group learning dynamics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Public Speaking</span>
+              <h3 class="achievement-title">Improved presentation skills</h3>
+              <p class="achievement-desc">
+                Developing confidence in demonstrating projects and explaining code architecture during coursework presentations.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Technical Foundation</span>
+              <h3 class="achievement-title">Developing programming skills in C and C++</h3>
+              <p class="achievement-desc">
+                Building a strong grasp on pointers, data structures, and algorithmic logic through continuous problem practice.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Hands-on Implementation</span>
+              <h3 class="achievement-title">Building practical web development projects</h3>
+              <p class="achievement-desc">
+                Applying HTML, CSS, and JavaScript knowledge to design responsive, user-friendly applications such as this portfolio and a running site.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="achievement-card">
+            <div class="achievement-icon-wrap">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <span class="achievement-category">Lifelong Learning</span>
+              <h3 class="achievement-title">Continuously learning new technologies</h3>
+              <p class="achievement-desc">
+                Actively expanding knowledge horizons beyond classroom syllabus by exploring modern web frameworks and developer tools.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================
+         7. CONTACT SECTION
+         ======================================================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Reach Out</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Feel free to connect for academic collaborations, project discussions, or technology conversations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left Column: Contact & Social Info Details -->
+          <div class="contact-info-col">
+            <div class="contact-card">
+              
+              <div class="contact-person-badge">
+                <div class="person-avatar">DS</div>
+                <div>
+                  <h3 class="person-name">Dev Saini</h3>
+                  <p class="person-role">B.Tech CSE Student (1st Year)</p>
+                </div>
+              </div>
+
+              <!-- Institution & Location Info -->
+              <div class="contact-detail-items">
+                <div class="detail-item">
+                  <div class="detail-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                      <polyline points="2 17 12 22 22 17"></polyline>
+                      <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="detail-label">University</span>
+                    <span class="detail-value">JECRC University</span>
+                  </div>
+                </div>
+
+                <div class="detail-item">
+                  <div class="detail-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="detail-label">Location</span>
+                    <span class="detail-value">Jaipur, Rajasthan, India</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-links-block">
+                <h4 class="links-heading">Official Profiles</h4>
+
+                <!-- LinkedIn Link -->
+                <a href="https://www.linkedin.com/in/dev-saini-a9144242b" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                  <div class="profile-link-icon in">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+                    </svg>
+                  </div>
+                  <div class="profile-link-content">
+                    <span class="profile-link-tag">LinkedIn</span>
+                    <span class="profile-link-display">Dev Saini – JECRC University – Jaipur, Rajasthan, India | LinkedIn</span>
+                  </div>
+                  <div class="profile-arrow">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+
+                <!-- GitHub Link -->
+                <a href="https://github.com/devsaini0065" target="_blank" rel="noopener noreferrer" class="profile-link-card">
+                  <div class="profile-link-icon gh">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                    </svg>
+                  </div>
+                  <div class="profile-link-content">
+                    <span class="profile-link-tag">GitHub</span>
+                    <span class="profile-link-display">GitHub – devsaini0065</span>
+                  </div>
+                  <div class="profile-arrow">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </div>
+                </a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right Column: Contact Form -->
+          <div class="contact-form-col">
+            <div class="form-container-card">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-subtitle">
+                Have a question or want to collaborate? Fill in the details below.
+              </p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="name" class="form-label">Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                  <span class="form-error" id="nameError">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com" required>
+                  <span class="form-error" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message <span class="required">*</span></label>
+                  <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+                  <span class="form-error" id="messageError">Please enter your message.</span>
+                </div>
+
+                <!-- Honest Disclaimer about Email Service Backend -->
+                <div class="form-disclaimer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="16" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                  </svg>
+                  <span>Note: Front-end portfolio form. Direct email dispatch requires backend server integration. Submitting offers a convenient email draft shortcut.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span>Send Message</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Form Submission Status Alert Box -->
+              <div id="formStatus" class="form-status" role="alert" style="display: none;"></div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <span class="logo-symbol">&lt;</span>
+          <span class="logo-name">Dev Saini</span>
+          <span class="logo-symbol">/&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          1st Year B.Tech CSE Student &bull; JECRC University, Jaipur
+        </p>
+      </div>
+
+      <div class="footer-socials">
+        <!-- GitHub -->
+        <a href="https://github.com/devsaini0065" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+          </svg>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/dev-saini-a9144242b" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        &copy; 2026 Dev Saini. All Rights Reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Project Preview Modal -->
+  <div id="projectModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalProjectTitle">Project Preview</h3>
+        <button id="modalClose" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p id="modalProjectDesc">Detailed information about this project.</p>
+        <div class="modal-note">
+          <strong>Note:</strong> This project is part of Dev Saini's 1st-year web development practical work. Live demo links and repo links can be updated in <code>index.html</code>.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" id="modalDismiss">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Bundle -->
+  <script src="js/script.js"></script>
+</body>
+</html>
